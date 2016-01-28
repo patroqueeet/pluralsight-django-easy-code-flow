@@ -10,3 +10,6 @@ This flow has been proved to work for large scale Django projects with clients l
 Develop: [![Build Status](https://semaphoreci.com/api/v1/projects/91497d58-a947-4974-968e-76405531483a/677253/badge.svg)](https://semaphoreci.com/vbnet/pluralsight-django-easy-code-flow)
 
 Master: [![Build Status](https://semaphoreci.com/api/v1/projects/91497d58-a947-4974-968e-76405531483a/677263/badge.svg)](https://semaphoreci.com/vbnet/pluralsight-django-easy-code-flow)
+
+# Instances
+Develop branch is visible on [pluralsight.kkd-partners.com/audition/develop] and Master branch can be seen on [pluralsight.kkd-partners.com/audition/master].
