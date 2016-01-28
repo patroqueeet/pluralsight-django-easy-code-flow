@@ -12,4 +12,4 @@ Develop: [![Build Status](https://semaphoreci.com/api/v1/projects/91497d58-a947-
 Master: [![Build Status](https://semaphoreci.com/api/v1/projects/91497d58-a947-4974-968e-76405531483a/677263/badge.svg)](https://semaphoreci.com/vbnet/pluralsight-django-easy-code-flow)
 
 # Instances
-Develop branch is visible on [pluralsight.kkd-partners.com/audition/develop] and Master branch can be seen on [pluralsight.kkd-partners.com/audition/master].
+Develop branch is visible on http://pluralsight.kkd-partners.com/audition/develop and Master branch can be seen on http://pluralsight.kkd-partners.com/audition/master.
