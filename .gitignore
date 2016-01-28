@@ -64,3 +64,4 @@ target/
 
 # app itself
 demo/db.sqlite3
+demo/media/static
