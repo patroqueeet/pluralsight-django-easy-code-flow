@@ -30,11 +30,11 @@ if [ -z "$NEEDS_TAG" ]; then
     git push --tags
     # updating base.py
     echo "updating app version..."
-    sed -i "s/VERSION = '.*'/VERSION = '$NEW_TAG'/g" site/project/settings/*
+    sed -i "s/VERSION = '.*'/VERSION = '$NEW_TAG'/g" demo/demo/settings.py
     echo "file says now:"
-    grep "VERSION" site/project/settings/base.py
+    grep "VERSION" demo/demo/settings.py
     echo "commiting file..."
-    git add site/project/settings/base.py && git commit -m "updated version at base.py to $NEW_TAG" && git push
+    git add demo/demo/settings.py && git commit -m "updated version at base.py to $NEW_TAG" && git push
     ID=`git log --format="%H" -n 1`
     git checkout develop
     git cherry-pick $ID
