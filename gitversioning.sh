@@ -30,7 +30,7 @@ if [ -z "$NEEDS_TAG" ]; then
     git push --tags
     # updating base.py
     echo "updating app version..."
-    sed -i "s/VERSION = '.*'/VERSION = '$NEW_TAG'/g" site/project/settings/base.py
+    sed -i "s/VERSION = '.*'/VERSION = '$NEW_TAG'/g" site/project/settings/*
     echo "file says now:"
     grep "VERSION" site/project/settings/base.py
     echo "commiting file..."
